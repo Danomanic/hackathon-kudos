@@ -14,9 +14,6 @@ app.get('/', (req, res) => {
    });
 
 app.post('/thankyou', (req, res) => {
-    console.log("nominee is ", req.body.nominee);
-    console.log("nominator is ", req.body.nominator);
-    console.log("reason is ", req.body.reason);
     res.render('thankyou.html')
 })
 
