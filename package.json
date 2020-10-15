@@ -1,0 +1,28 @@
+{
+  "name": "kudos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danomanic/kudos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danomanic/kudos/issues"
+  },
+  "homepage": "https://github.com/Danomanic/kudos#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mustache-express": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
