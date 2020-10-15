@@ -30,9 +30,11 @@ app.post('/thankyou', async (req, res) => {
     res.render('thankyou.html')
 })
 
-// Helper endpoint
-app.get('/list', async (req, res) => {
-    res.send(await kudos.find({}));
+app.get('/history', async (req, res) => {
+
+    const history = await kudos.find({});
+
+    res.render('history.html', { "history": history } );
 });
 
 
